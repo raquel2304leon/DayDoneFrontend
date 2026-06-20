@@ -2,7 +2,7 @@
 import axios from 'axios';
 
 // URL base del backend
-const API_URL = 'http://localhost:8080/api/tareas';
+const API_URL = 'http://localhost:3001/tareas';
 
 // Obtener todas las tareas
 export const listarTareas = () => axios.get(API_URL);
